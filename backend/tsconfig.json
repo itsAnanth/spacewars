@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "strict": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "noEmitOnError": true,
+        "noUnusedLocals": false,
+        "noImplicitAny": false,
+        "outDir": "./dist",
+        "incremental": true
+    },
+    "exclude": [
+        "./build",
+        "./node_modules"
+    ],
+    "include": [
+        "**/*.ts"
+    ]
+}
