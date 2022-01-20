@@ -37,7 +37,7 @@ class Server {
         return true;
     }
 
-    listenToPort() {
+    listenToPort(): void {
         this.server.listen(this.PORT, () => console.log(`Listening on port ${this.PORT}`));
     }
 }
